@@ -51,7 +51,7 @@ header{
     height: auto;
     margin: auto;
 }
-nav{
+/* nav{
     width: 90%;
     height: auto;
     row-gap: 20px;
@@ -72,13 +72,23 @@ nav>ul>li>a, li>a,i{
     font-family: Poppins;
     font-size: 13px;
     font-weight: 600;
+} */
+#nav{
+    display: none;
+}
+#mobile_menu{
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 header>section{
     width: 90vw;
     height: auto;
     margin:50px auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
     row-gap: 30px;
