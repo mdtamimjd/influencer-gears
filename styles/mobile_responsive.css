@@ -1,0 +1,109 @@
+/* mobile responsiv */
+
+@media screen and (max-width:576px) {
+    /* css vireabal */
+.b_n{
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.h1_52{
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+.p_16{
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.h_btn{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    text-decoration: none;
+    padding: 10px 24px 10px 24px;
+}
+.white{
+    color: white;
+}
+.mt16{
+    margin-top: 16px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    width: 100vw;
+    height: auto;
+    margin: auto;
+}
+nav{
+    width: 90%;
+    height: auto;
+    row-gap: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>ul{
+    display: flex;
+    list-style: none;
+    column-gap: 30px;
+}
+nav>ul>li>a, li>a,i{
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 600;
+}
+header>section{
+    width: 90vw;
+    height: auto;
+    margin:50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 30px;
+}
+.header_text{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 16px;
+}
+.header_img{
+    width: 100%;
+    height:450px;
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_img>img{
+    width: 90%;
+    height: 90%;
+}
+}
