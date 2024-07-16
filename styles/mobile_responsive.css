@@ -93,7 +93,7 @@ header>section{
     row-gap: 16px;
 }
 .header_img{
-    width: 100%;
+    width: 450px;
     height:450px;
     background-image: url('../images/Circle\ design.svg');
     background-repeat: no-repeat;

@@ -89,6 +89,27 @@
 .sm_a{
     color: rgba(224, 44, 109, 0.87);
 }
+.j_b{
+    padding: 10px 24px 10px 24px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    background: rgb(224, 44, 109);
+}
+.h2_38{
+    color: rgb(10, 8, 38);
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 700;
+}
+.p_16_p{
+    color: rgb(108, 108, 108);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+}
 *{
     margin: 0;
     padding: 0;
@@ -203,4 +224,27 @@ main{
 }
 .star-color{
     color: orange;
+}
+/* feature section */
+.feature{
+    width: 1110px;
+    height: 270px;
+    margin:100px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature_img{
+    width: 404px;
+    height: 270px;
+    background-image: url('../images/gear.png');
+    background-size: cover;
+}
+.feature_text{
+    width: 610px;
+    height: 224px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
 }
