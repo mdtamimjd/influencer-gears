@@ -106,4 +106,21 @@ header>section{
     width: 90%;
     height: 90%;
 }
+/* main section */
+main{
+    width: 100vw;
+    height: auto;
+    margin: auto;
+}
+.logo_box{
+    width: 90%;
+    height: auto;
+    margin:100px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    border: none;
+}
 }
