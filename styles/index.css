@@ -39,6 +39,56 @@
 .mt16{
     margin-top: 16px;
 }
+.sr{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.h2_28{
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+}
+.h3_28{
+    color: rgb(24, 25, 31);
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+}
+.h4_24{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+}
+.r_b{
+    width: 11.07px;
+    height: 11.07px;
+}
+.r_n{
+    color: rgb(94, 99, 102);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+}
+.p_14{
+    color: rgb(120, 120, 133);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+}
+.sm{
+    color: rgba(224, 44, 109, 0.87);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.sm_a{
+    color: rgba(224, 44, 109, 0.87);
+}
 *{
     margin: 0;
     padding: 0;
@@ -106,4 +156,51 @@ main{
     justify-content: space-around;
     align-items: center;
     border-top: 1px solid rgba(192, 204, 218, 0.6);
+}
+/* collection section */
+.collection{
+    width: 1047px;
+    height: 1662px;
+    margin:100px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.collection_box{
+    width: 100%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.collection_item{
+    width:calc(329px - 30px);
+    height:calc(476px - 30px);
+    top: 0;
+    padding: 15px;
+    border-radius:5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 5px;
+}
+.collection_item>img{
+    width: 300px;
+    height: 256px;
+    margin: auto;
+}
+.collection_item>div{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.collection_item>div>span{
+    display: flex;
+    column-gap:5px;
+}
+.star-color{
+    color: orange;
 }
